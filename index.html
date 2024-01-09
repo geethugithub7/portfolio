@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/af7f5386e1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a> </li>
+                <li><a href="#about">About</a> </li>
+                <li><a href="#services">Services</a> </li>
+                <li><a href="#portfolio">Portfolio</a> </li>
+                <li><a href="#contact">Contact</a> </li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I'm <span>Treasa Geethu PJ</span><br>
+        </div>
+
+    </div>
+</div>
+<!-------------------------------about---------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me.</h1>
+                <p>Dedicated and optimistic customer service representative with 2 years of experience in resolving complex
+                    customer issues. Eager to leverage my skills and knowledge in the IT industry to contribute to organizational
+                    growth while nurturing a long-term career. Committed to providing exceptional support and driving customer
+                    satisfaction in the dynamic field of IT.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
+                    <p class="tab-links" onclick="opentab('experience')"> Experience </p>
+                    <p class="tab-links" onclick="opentab('education')"> Education </p>
+                    <p class="tab-links" onclick="opentab('projects')"> Projects </p>
+                    <p class="tab-links" onclick="opentab('achievements')"> Achievements </p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span> UI/UX</span><br>Designing web/App Interfaces</li>
+                        <li><span> Web Development</span><br>Web Development using html,css,js</li>
+                        <li><span>MS Office</span><br>Proficient in creating and formating documents</li>
+                        <li><span>Programming Skills</span><br>Front-End and Back-End Frameworks</li>
+                        <li><span>Customer Support</span><br>Respond to customer inquiries and issues through chat, phone calls, and email, ensuring consistent, top quality support across all communication channels.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span> 06/2022-Present</span><br>Product Executive at Square Soft Technology EST, Dubai</li>
+                        <li><span> 11/2021-04/2022</span><br>Amazon CS Associate at Sutherland Global Services Pvt, Ernakulam</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span> 2021</span><br>BCA from Chinmaya College Of Arts Commerce And Science, Thripunithura</li>
+                        <li><span> 2018</span><br>DCA from CAPt Kerala State Center For Advanced Printing And Training</li>
+                        <li><span> 2018</span><br>Higher Secondary - St Augustine's hss Aroor,Kerala</li>
+                        <li><span>2016</span><br>SSLC - St Mary's high school,Kannamaly</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>OBCS - Online Birth Certificate System</span><br>eveloped a web application using PHP and HTML to automate and simplify the process of generating birth certificates</li>
+                        <li><span> HOPO - Online Bike and Bike Spare Parts Store</span><br>Developed a web application using Python and the Django framework for an online bike and bike spare parts store. </li>
+                       
+                    </ul>
+                </div>
+                <div class="tab-contents" id="achievements">
+                    <ul>
+                        <li><span>UI/UX</span><br>Successful Completed Introduction to user experience design by Coursera Georgia institute of technology</li>
+                        <li><span> Python</span><br>Successful Completed Workshop On Python </li>
+                        <li><span>NSS Quiz</span><br>Participate in National Level Online NSS Quiz (2020)</li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--------------------------------------services-------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-house"></i>      
+                <h1> Web Design</h1>
+                <p>
+                 Web design involves creating the visual elements and layout of a website, while coding involves translating these designs into a functional website using programming languages like HTML, CSS, and JavaScript.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h1> UI/UX Design</h1>
+                <p>
+                    UX design is all about identifying and solving user problems; UI design is all about creating intuitive, aesthetically-pleasing, interactive interfaces. UX design usually comes first in the product development process,
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                 <h1> App Design</h1>
+                <p>
+                    App design is an ongoing process comprising user experience (UX) and user interface (UI) elements. Designers ideate, define solutions, create the app's flow and structure, and make stylistic choices from colors to fonts. Designers base choices on user research and feedback.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--------------------------------protfolio-------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Social media is a collective term for websites and applications that focus on communication, community-based input, interaction, content-sharing and collaboration. People use social media to stay in touch and interact with friends, family and various communities.</p>
+                    <a href="#"> <i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Social media is a collective term for websites and applications that focus on communication, community-based input, interaction, content-sharing and collaboration. People use social media to stay in touch and interact with friends, family and various communities.</p>
+                    <a href="#"> <i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>Social media is a collective term for websites and applications that focus on communication, community-based input, interaction, content-sharing and collaboration. People use social media to stay in touch and interact with friends, family and various communities.</p>
+                    <a href="#"> <i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!----------------------------Contact----------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>treesageethu2001@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91-6282847471</p>
+                <p><i class="fa-solid fa-phone"></i>+971-0544107021</p>
+                <div class="social-icons">
+                <a href="linkedin.com/in/treasa-geethu-pj-0598a2188"> <i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/treesa.geethu?mibextid=kFxxJD"> <i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/_treesa_geethu?utm_source=qr&igsh=MTd2NTZ0ZDFhZnduYw=="> <i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/LastCV.pdf" download class="btn">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" >Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Geethu! Made with <i class="fa-solid fa-heart"></i> </p>
+    </div>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbynRam4y-vT8NHHk_-9ivUXw34yZCLMrcKYzpY3iLmxKsrRFT8rH8hWbS-ZFybftdB-HQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
